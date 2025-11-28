@@ -7,7 +7,7 @@ const techStack = [
   { name: "Next.js / React", icon: Code2 },
   { name: "Tailwind CSS", icon: Palette },
   { name: "Next API Routes", icon: Server },
-  { name: "Prisma + PostgreSQL", icon: Database, note: "MVP bosqichida" },
+  { name: "Mongoose", icon: Database },
 ]
 
 const aiTools = [
@@ -48,7 +48,6 @@ export function TechStackSection() {
                     </div>
                     <div>
                       <span className="font-medium text-foreground">{tech.name}</span>
-                      {tech.note && <span className="text-xs text-muted-foreground ml-2">({tech.note})</span>}
                     </div>
                   </div>
                 ))}

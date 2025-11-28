@@ -1,15 +1,10 @@
 "use client"
 
-import { Droplets, Bug, Calendar, Wallet, UserX, CloudSun, Scan, Gauge, BarChart3 } from "lucide-react"
+import { Bug, Calendar, Wallet, UserX, CloudSun, Scan, BarChart3 } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { AnimateOnScroll } from "./animate-on-scroll"
 
 const problems = [
-  {
-    icon: Droplets,
-    title: "Suv isrofi",
-    description: "Optimal sug'orish yo'qligi sababli suv resurslarining behuda sarflanishi",
-  },
   {
     icon: Bug,
     title: "Kasalliklarni kech aniqlash",
@@ -42,11 +37,6 @@ const solutions = [
     icon: Scan,
     title: "AI Plant Doctor",
     description: "O'simlik kasalliklarini suratdan aniqlaydi",
-  },
-  {
-    icon: Gauge,
-    title: "Smart Irrigation Planner",
-    description: "Suvni 30–50% tejaydi",
   },
   {
     icon: BarChart3,

@@ -7,29 +7,13 @@ import "./globals.css"
 const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
-// <CHANGE> Updated metadata for AgroAI
 export const metadata: Metadata = {
   title: "AgroAI – AI-powered Smart Farming Assistant",
   description:
     "AgroAI helps farmers improve crop yield with AI solutions such as disease detection, irrigation optimization, and weather-based recommendations.",
-  generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+    icon: "/agro.webp"
+  }
 }
 
 export default function RootLayout({

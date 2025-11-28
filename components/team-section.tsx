@@ -4,6 +4,7 @@ import { Github, ExternalLink, User } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { AnimateOnScroll } from "./animate-on-scroll"
+import Link from "next/link"
 
 const skills = [
   "HTML",
@@ -37,8 +38,8 @@ export function TeamSection() {
                   <User className="h-12 w-12 text-muted-foreground group-hover:text-primary transition-colors" />
                 </div>
 
-                <h3 className="text-xl font-bold text-foreground mb-1">Bobur Oripov</h3>
-                <p className="text-primary font-medium mb-4">Founder & Frontend Developer</p>
+                <h3 className="text-xl font-bold text-foreground mb-1">Bobojon Oripov (Bobur deb chaqiradilar)</h3>
+                <p className="text-primary font-medium mb-4">Team Leader & Frontend Developer</p>
 
                 <div className="flex flex-wrap justify-center gap-2 mb-6">
                   {skills.map((skill, index) => (
@@ -56,9 +57,9 @@ export function TeamSection() {
                     variant="outline"
                     size="sm"
                     asChild
-                    className="hover:border-primary hover:text-primary transition-colors bg-transparent"
+                    className="hover:border-primary transition-colors bg-transparent"
                   >
-                    <a
+                    <Link
                       href="https://polite-lollipop-13b82b.netlify.app"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -66,13 +67,13 @@ export function TeamSection() {
                     >
                       <ExternalLink className="h-4 w-4" />
                       Portfolio
-                    </a>
+                    </Link>
                   </Button>
                   <Button
                     variant="outline"
                     size="sm"
                     asChild
-                    className="hover:border-primary hover:text-primary transition-colors bg-transparent"
+                    className="hover:border-primary transition-colors bg-transparent"
                   >
                     <a
                       href="https://github.com/fenix1409"
