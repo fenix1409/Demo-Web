@@ -23,12 +23,6 @@ const roadmapItems = [
     progress: 0,
   },
   {
-    title: "Smart Irrigation Planner",
-    description: "Sug'orish rejalashtirish tizimini yaratish",
-    status: "upcoming",
-    progress: 0,
-  },
-  {
     title: "MVP Release",
     description: "Birinchi tayyor versiyani chiqarish",
     status: "upcoming",
