@@ -7,13 +7,12 @@ const techStack = [
   { name: "Next.js / React", icon: Code2 },
   { name: "Tailwind CSS", icon: Palette },
   { name: "Next API Routes", icon: Server },
-  { name: "Mongoose", icon: Database },
+  { name: "Mongoose + Express", icon: Database },
 ]
 
 const aiTools = [
   { name: "GPT-4o / GPT-5 Vision", icon: Brain, description: "Plant disease detection" },
   { name: "Weather API", icon: Cloud, description: "Open-Meteo" },
-  { name: "Custom irrigation engine", icon: Database, description: "Sug'orish algoritmi" },
 ]
 
 export function TechStackSection() {

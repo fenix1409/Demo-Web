@@ -1,4 +1,5 @@
 import { Leaf, Github, Mail } from "lucide-react"
+import Link from "next/link"
 
 export function Footer() {
   return (
@@ -11,14 +12,14 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
-            <a
-              href="mailto:contact@agroai.uz"
+            <Link
+              href="mailto:oripovbobur@gmail.com"
               className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
             >
               <Mail className="h-4 w-4" />
-              contact@agroai.uz
-            </a>
-            <a
+              oripovbobur208@gmail.com
+            </Link>
+            <Link
               href="https://github.com/fenix1409"
               target="_blank"
               rel="noopener noreferrer"
@@ -26,14 +27,8 @@ export function Footer() {
             >
               <Github className="h-4 w-4" />
               GitHub
-            </a>
+            </Link>
           </div>
-        </div>
-
-        <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center">
-          <p className="text-sm text-primary-foreground/50">
-            © {new Date().getFullYear()} AgroAI. AI500 Hackathon Demo.
-          </p>
         </div>
       </div>
     </footer>
